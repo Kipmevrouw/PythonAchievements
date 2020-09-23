@@ -1,0 +1,17 @@
+print("Hoe oud ben ik?")
+print("A. 50")
+print("B. 36")
+print("C. 16")
+print("D. 55")
+print("E. 15")
+antwoord = input("Kies A, B, C, D of E >>>>")
+if(antwoord == "A"):
+	print("fout")
+elif(antwoord == "B"):
+	print("Fout!")
+elif(antwoord == "C"):
+	print("Correct")
+elif(antwoord == "D"):
+	print("Fout!")
+elif(antwoord == "E"):
+	print("Fout!")
